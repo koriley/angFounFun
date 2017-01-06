@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/koriley/angFoundation"
   },
   "bugs": {
-    "url": "",
+    "url": "https://github.com/koriley/angFoundation",
     "email": "koriley21@gmail.com"
   },
-  "author": "ZURB Orgin koriley to add the small stuff",
+  "author": "ZURB Orgin koriley to add the Angular stuff",
   "license": "MIT",
   "private": false,
   "dependencies": {
