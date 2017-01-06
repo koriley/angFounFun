@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+    <div class="input-group search" >
+
+    <input  type="text" placeholder="Search Users" ng-model="searchUser" />
+  </div>
     <div class="off-canvas position-left" id="slideMenu" data-off-canvas>
 
     <!-- Close button -->
@@ -35,8 +39,35 @@
       </div>
     </div>
   </div>
+  <div ng-controller="testCon">
+  <div class="row">
+<div class="columns">
+
+</div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
 
 
+  <ul>
+    <li ng-repeat="uname in unames | filter:searchUser">
+      <div class="peopleContain" style=" margin:30px; padding:10px; cursor:pointer;">
+        <div class="peopleImg" style="float:left; margin:5px;">
+          <img src="{{uname.photo}}" />
+        </div>
+      <span>{{uname.user }}</span>
+      <p style="margin-top:-10px;">{{uname.fname}} {{uname.lname}}</p>
+    </div>
+    </li>
+  </ul>
+  <!-- <pre>{{searchUser}}</pre> -->
+  </div>
+  <div class="large-6 columns" style="border:1px solid black;">
+
+
+  </div>
+</div>
+</div>
     <div class="row">
       <div class="large-12 columns">
         <label>Input Label</label>
