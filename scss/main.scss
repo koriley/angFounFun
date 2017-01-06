@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+$ulFont : 'PT Sans Narrow', sans-serif;
+
+.redText{
+  color:red;
+
+}
+
+ul{
+  list-style: none !important;
+  font-family: $ulFont;
+  li{
+
+    color:gray;
+    span{
+      font-size:1.5em;
+      color:black;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "angFoundation",
+  "version": "1.0.0",
+  "description": "Angular and Foundation 6",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "",
+    "email": "koriley21@gmail.com"
+  },
+  "author": "ZURB Orgin koriley to add the small stuff",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
